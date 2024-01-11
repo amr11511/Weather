@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="shortcut icon"
+      href="img/weather-app.png"
+      type="image/x-icon"
+    />
+    <script src="https://kit.fontawesome.com/47730f9393.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    style="background-color: #1e202b"
+  >
+    <nav class="navbar navbar-expand-lg text-black  w-100" id="navbar">
+      <div class="container ps-5 pe-5 py-2">
+        <a class="navbar-brand fw-bold fa-3x" href="#Home"></a>
+          <div class="d-flex cursor-pointer pe-sm-5">
+            <div class="me-2 w-25">
+              <img src="img/logo@2x.png" alt="logo" class="w-100 pt-2" />
+            </div>
+            <div class="logoContainer pt-1">
+              <p class="text-white fw-bold">Weather</p>
+              <p class="text-white-50 position-relative top">tagline goes here</p>
+            </div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active px-4 mx-1 py-1 my-1" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-1 py-1 my-1" href="">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-1 py-1 my-1" href="">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-1 py-1 my-1" href="">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-1 py-1 my-1" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="Home">
+      <div class="container cont">
+        <form class="find-location">
+          <input type="text" placeholder="Find your location..." id="search">
+          <input type="button" value="Find" id="submit">
+        </form>
+      </div>
+      <div class="container pb-5">
+        <div class="row">
+      </div>
+    </section>
+    <footer id="footerSide">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="item">
+              <form action="#" class="subscribe-form">
+                <input type="text" placeholder="Enter your email to subscribe...">
+                <input type="submit" value="Subscribe" class="px-3">
+              </form>
+            </div>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <div class="item mb-2">
+              <div class="social-link">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-white-50 ps-1">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+ 
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

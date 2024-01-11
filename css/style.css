@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #ffffff;
+}
+.nav-link {
+    color: #ffffff;
+    border:2px solid transparent;
+    border-radius: 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #009ad8;
+    border:2px solid #009ad8;
+    border-radius: 20px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #009ad8;
+    border:2px solid #009ad8;
+    border-radius: 20px;
+}
+.navbar.scrolled {
+    background-color: #f8f9fa;
+    
+}
+.navbar-brand.scrolled {
+    color: #212529;
+}
+.nav-link.scrolled {
+    color: #212529;
+}
+.nav-link.scrolled:focus, .nav-link.scrolled:hover {
+    color: var(--main-color);
+}
+.navbar-toggler-icon{
+    background-image: url(../img/269dd16fa1f5ff51accd09e7e1602267.png);
+}
+/*************/
+.logoContainer .top{
+    top: -18px;
+    font-size: 10px;
+}
+.cursor-pointer{
+    cursor: pointer;
+    padding-top: 18px;
+}
+/*************/
+#Home{
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+/*************************/
+.cont{
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+.find-location{
+    position: relative;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    
+}
+:focus-visible{
+    outline: none;
+}
+.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background-color: #009ad8;
+    border-radius: 30px;
+    border: none;
+
+}
+/*****************/
+.headDiv{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-weight: 400;
+}
+#location{
+    font-size: 20px;
+}
+#detTemprechar{
+    font-size: 90px;
+}
+/*********/
+#dis{
+    padding-top: 500px;
+}
+/***********fooooter***********/
+#footerSide{
+    margin-top: 350px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #262936;
+}
+.subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+.subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+:focus-visible{
+    outline: none;
+}
+.subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    background-color: #009ad8;
+    border-radius: 30px;
+    border: none;
+}
+.social-link a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-link a:hover{
+    color: #ffffff;
+    background-color: #009ad8;
+}
+/**************/
+@media screen and (max-width: 1000px) {
+    #footerSide{
+        margin-top: 1000px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+/***********************contactPage**********************/
+.breadcrumb{
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+}
+.breadcrumb i {
+    padding-top: 5px;
+}
+.item-map{
+    background: #262936;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/***************************/
+.form-group input:not([type="submit"]), .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #393c48;
+    background: transparent;
+}
+.form-group .form-control{
+    transition: all 0.5s;
+}
+.form-group .form-control:focus{
+    box-shadow: 0 0 0 0.1rem #009ad8;
+}
+.form-group .form-control:hover{
+    border-color: #009ad8;
+}
+.form-group input:not([type="submit"])::placeholder{
+    color: #ffffff78;
+}
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.5s;
+}
+.form-group textarea:hover{
+    border-color: #009ad8;
+}
+.form-group textarea:focus{
+    border-color: #009ad8;
+}
